@@ -39,7 +39,7 @@ class App extends React.Component {
         <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder="Search Monsters"
-          onSearchChangee={this.onSearchChange}
+          onSearchChange={this.onSearchChange}
         />
 
         <CardList items={filteredItems} />
